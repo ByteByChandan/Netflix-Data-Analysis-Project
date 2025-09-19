@@ -4,18 +4,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Netflix catalog analysis with Python & Jupyter: genres, countries, yearly trends, top directors/actors, and exploratory queries.">
-
+  <title>Netflix Data Analysis Project</title>
 </head>
 <body>
   <h1>Netflix Data Analysis Project</h1>
 
-  <p>This project explores Netflix's content library using Python and Jupyter Notebook. It provides an in-depth analysis of movies and TV shows, uncovering trends in genres, countries, release years, and the most frequent contributors, such as directors and actors. The analysis aims to give insights into content distribution, production trends, and user-centric features such as ratings and keyword-based searches.</p>
+  <ul>
+    <li><strong>Project Goal:</strong> Explore Netflix's content library using Python and Jupyter Notebook to uncover trends and insights.</li>
 
-  <p>The dataset contains details for each title, including a unique ID, title name, type (movie or TV show), director and cast, country of production, date added to the platform, release year, rating, duration, and genres. This data enables exploratory queries such as counts of movies versus TV shows, top countries by content contribution, yearly content additions, genre frequency, ratings breakdowns, top directors and actors, oldest and most recent titles, longest duration movies, content distribution per country, and keyword-based searches.</p>
+    <li><strong>Objective:</strong> Analyze movies and TV shows for trends in genres, countries, release years, ratings, and top contributors (directors and actors).</li>
 
-  <p>The analysis is implemented using Python with Pandas and NumPy for data handling, and Matplotlib and Seaborn for visualizations. Users can reproduce the analysis by cloning the repository, opening the notebook <code>Netflix_Data_Analyst.ipynb</code> in Jupyter Notebook or VS Code, installing the required libraries, and running the notebook step by step.</p>
+    <li><strong>Dataset Overview:</strong>
+      <ul>
+        <li>Unique ID for each title</li>
+        <li>Title name</li>
+        <li>Type: Movie or TV Show</li>
+        <li>Director and Cast</li>
+        <li>Country of production</li>
+        <li>Date added to Netflix</li>
+        <li>Release Year</li>
+        <li>Rating</li>
+        <li>Duration</li>
+        <li>Genres</li>
+      </ul>
+    </li>
 
-  <p>Some example insights include that the US and India typically contribute the largest number of titles, TV shows have grown faster than movies in recent years, and ratings like TV-MA and TV-14 are common across the catalog. The project is licensed under the MIT License, and the notebook can be extended for additional queries, visualizations, and deeper analyses.</p>
+    <li><strong>Analysis Covered:</strong>
+      <ul>
+        <li>Total Movies vs TV Shows</li>
+        <li>Top countries by content contribution</li>
+        <li>Yearly content additions</li>
+        <li>Most common genres</li>
+        <li>Ratings breakdown (e.g., TV-MA, PG-13)</li>
+        <li>Top directors and actors</li>
+        <li>Oldest and most recent titles</li>
+        <li>Longest duration movies</li>
+        <li>Content distribution per country</li>
+        <li>Keyword-based searches (e.g., "Love", "War")</li>
+      </ul>
+    </li>
+
+    <li><strong>Tools & Libraries:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook</li>
+
+    <li><strong>How to Run:</strong>
+      <ul>
+        <li>Clone the repository</li>
+        <li>Open <code>Netflix_Data_Analyst.ipynb</code> in Jupyter Notebook or VS Code</li>
+        <li>Install dependencies: <code>pip install pandas numpy matplotlib seaborn</code></li>
+        <li>Run the notebook step by step to reproduce analysis and visualizations</li>
+      </ul>
+    </li>
+
+    <li><strong>Example Insights:</strong>
+      <ul>
+        <li>US and India contribute the largest number of titles</li>
+        <li>TV shows have grown faster than movies in recent years</li>
+        <li>Common ratings include TV-MA and TV-14</li>
+      </ul>
+    </li>
+
+    <li><strong>License:</strong> MIT License</li>
+  </ul>
 
 </body>
 </html>
