@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Netflix catalog analysis with Python & Jupyter: genres, countries, yearly trends, top directors/actors, and exploratory queries.">
-  <title>Netflix Data Analysis Project</title>
+
 </head>
 <body>
   <h1>Netflix Data Analysis Project</h1>
